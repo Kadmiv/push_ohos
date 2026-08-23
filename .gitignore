@@ -6,6 +6,8 @@
 *.ipa
 *.lock
 *.zip
+pubspec.lock
+**/pubspec.lock
 .DS_Store
 .atom/
 .buildlog/
@@ -36,13 +38,15 @@
 .packages
 .pub-cache/
 .pub/
-.lock/
 build/
+**/build/
+coverage/
 devtools_options.yaml
 **/devtools_options.yaml
 .fvm/
-pubspec_overrides.yaml
-**/pubspec_overrides.yaml
+# OpenHarmony module: do not ignore pubspec_overrides.yaml
+!/pubspec_overrides.yaml
+!pubspec_overrides.yaml
 
 # Module / Plugin generated platform folders
 .android/
