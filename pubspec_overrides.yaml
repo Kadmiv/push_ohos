@@ -1,3 +1,0 @@
-# melos_managed_dependency_overrides: push_core
-dependency_overrides:
-  { push_core: {path: ../push_core}}

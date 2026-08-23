@@ -1,0 +1,60 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.ipa
+*.lock
+*.zip
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Flutter / Dart / Pub / DevTools
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.lock/
+build/
+devtools_options.yaml
+**/devtools_options.yaml
+.fvm/
+pubspec_overrides.yaml
+**/pubspec_overrides.yaml
+
+# Module / Plugin generated platform folders
+.android/
+.ios/
+**/.android/
+**/.ios/
+
+# Build & code generation
+*.freezed.dart
+*.g.dart
+lib/generated/
+**/lib/generated/
+lib/generated_plugin_registrant.dart
+lib/res/generated/*
+**/lib/res/generated/*
