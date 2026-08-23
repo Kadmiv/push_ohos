@@ -1,6 +1,7 @@
 name: push_ohos
 description: "OpenHarmony / HarmonyOS NEXT push notification module"
 version: 1.0.0
+publish_to: none
 
 environment:
   sdk: ">=3.8.1 <4.0.0"
